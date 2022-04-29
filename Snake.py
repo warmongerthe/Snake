@@ -65,7 +65,7 @@ def main():
     creds = service_account.Credentials.from_service_account_file(
         SERVICE_ACCOUNT_FILE, scopes=SCOPES)  # задаем в переменную ключ и ресурс
     # The ID and range of a sample spreadsheet.
-    SAMPLE_SPREADSHEET_ID = '1A5cf_Cwz688MrwN_ki0gh6nZB7xttkEJ8bmqkL-1zvQ'  # это наша таблица в https://docs.google.com/
+    SAMPLE_SPREADSHEET_ID = '1A5cf_Cwz688MrwN_ki0gh6nWB7xttkEJ8bmqkL-1zvO'  # это наша таблица в https://docs.google.com/
     # SAMPLE_RANGE_NAME = 'Class Data!A2:E'
     service = build('sheets', 'v4', credentials=creds)  # хз (компонуем все в сервис походу)
     # Call the Sheets API
